@@ -1,0 +1,28 @@
+.sidebar{
+    border: solid blue;
+    width: 350px;
+    height: calc(100vh - 98px);
+    transition: transform .5s ease-in-out;
+}
+
+.collapse{
+    transform: translateX(-300px);
+}
+
+.icon{
+    padding: 8px;
+    text-align: right;
+    display: block;
+
+    position: relative; 
+    font-size: 32px; 
+
+    .__complement{
+        position:absolute; 
+        top: 50%;
+        right: 8px;
+        font-size: 18px;
+        transform: translate(-50%, -50%);
+    }
+}
+

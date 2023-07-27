@@ -1,0 +1,12 @@
+header{
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .__logo{
+        display: flex;
+        align-items: center;
+        border: solid blue;
+    }
+}
